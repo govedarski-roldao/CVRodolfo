@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #789EBF;
+    --cor1: #537FA6;
+    --cor2: rgba(0, 128, 0, 0.438);
+    --cor3: #BF9B7A;
+    --cor4: #8C472E;
+    --cor5: #252617;
+
+    --fonte-padrão: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-secundaria: 'Public Sans', sans-serif;
+}
+table{
+    border-collapse: collapse;
+    color: white;
+    padding-bottom: 20px;
+}
+.menu{
+    padding-left: 100px;
+    background-color: var(--cor2);
+    text-align: right;
+    font-weight: bold;
+}
+.info{
+    text-align: left;
+    padding-left: 19px;
+    font-weight: bold;
+    background-color: var(--cor2);
+}
+
+body {
+    text-align: center;
+    
+}
+h1{
+    size: 50px;
+}
+
+.lol{
+    background-image: url("/image/Background.jpg");
+}
+.profilepic {
+    margin: 100px 100px 50px 100px;
+    position: inherit;
+    max-width: 300px;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    background-image: url(Imagens/target001.png);
+    background-size: 100% 100%;
+}
+
+
+footer {
+    background-color: #252617;
+    color: white;
+    padding: 6px;
+    text-align: center;
+
+}
