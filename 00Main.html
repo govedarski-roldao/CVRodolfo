@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main CV page</title>
-    <link rel="stylesheet" href="styles/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main CV page</title>
 
+<style>
+    .profilepic {
+        margin: 100px 100px 50px 100px;
+        position: inherit;
+        max-width: 300px;
+        background-color: yellow;
+        left: 50%;
+        top: 50%;
+        background-image: url(Imagens/target001.png);
+        background-size: 100% 100%;
+    }
+
+    body {
+        color: white;
+        text-align: center;
+        background-color: blue;
+        background-image: url(../CV/image/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    .profilepic {
+        display: inline-block;
+    }
+
+    #name,
+    h3 {
+        width: 800px;
+        margin: auto;
+        font-weight: bolder;
+        font-size: 50px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
+       
+    }
+</style>
 </head>
 
 <body>
-<section class="lol">
-        <img class="profilepic" src="image/this.jpg" alt="profile_pic">
-    
-        <h1>Rodolfo Govedarski-Roldão</h1>
-        <h3>Curriculum Vitae</h3>
-        <nav>
-            <a href="02Education.html">EDUCATION</a>
-            <a href="03workexperience.html">WORK EXPERIENCE</a>
-            <a href="05computerskillsandcompetences.html">SKILLS</a>
-        </nav>
-</section>
+
+    <img class="profilepic" src="image/this.jpg" alt="profile_pic">
+
+
+    <h1 id="name">Rodolfo Govedarski-Roldão</h1>
+    <h3 style="font-size: 25px;">Curriculum Vitae</h3>
+    <nav>
+        <a href="02Education.html">EDUCATION</a>
+        <a href="03workexperience.html">WORK EXPERIENCE</a>
+        <a href="05computerskillsandcompetences.html">SKILLS</a>
+    </nav>
+
 
 </body>
 

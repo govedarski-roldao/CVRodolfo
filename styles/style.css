@@ -41,6 +41,10 @@ table{
 
 body {
     text-align: center;
+    background-color: blue;
+    background-image: url(../image/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 h1{
