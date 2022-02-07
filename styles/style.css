@@ -7,6 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 :root {
@@ -21,14 +22,45 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-secundaria: 'Public Sans', sans-serif;
 }
+.pagetitle{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    margin: 20px;
+    padding: 5px;
+    font-size: 3.8vw;
+    width: 80vw;
+    margin: 50px auto 50px auto;
+}
+h2{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    padding: 10px;
+    font-size: 2.1vw;
+}
 table{
     border-collapse: collapse;
     color: white;
     padding-bottom: 20px;
+    margin: auto;
+    
+   
+   
+}
+
+div{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.040));
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    font-size: 1.2vw;
+    margin: auto;
+}
+
+td{
+    padding: 2px ;
+
 }
 .menu{
-    padding-left: 100px;
-    background-color: var(--cor2);
+
+
     text-align: right;
     font-weight: bold;
 }
@@ -36,24 +68,22 @@ table{
     text-align: left;
     padding-left: 19px;
     font-weight: bold;
-    background-color: var(--cor2);
+
 }
 
 body {
+    color: white;
     text-align: center;
     background-color: blue;
     background-image: url(../image/Background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
-}
-h1{
-    size: 50px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.lol{
-    background-image: url("/image/Background.jpg");
-}
+
 .profilepic {
     margin: 100px 100px 50px 100px;
     position: inherit;
@@ -64,7 +94,49 @@ h1{
     background-image: url(Imagens/target001.png);
     background-size: 100% 100%;
 }
+nav{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
+    font-size: 1.2vw;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-bottom: 10px;  /* Height of the footer */
+    
 
+    
+}
+
+nav a {
+    
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    
+
+}
+
+nav a:hover {
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 5px 10px rgba(43, 149, 158, 0.534);
+    color: var(--cor5);
+    transition-duration: .7s;
+}
+p, ul{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.040));
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    font-size: 1.4em;
+    list-style-type: none;
+}
+li{
+    text-align: left;
+}
 
 footer {
     background-color: #252617;

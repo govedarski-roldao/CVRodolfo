@@ -2,10 +2,12 @@
 <html lang="pt-pt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Main CV page</title>
+<link rel="stylesheet" href="styles/style.css">
+
 
 <style>
     .profilepic {
-        margin: 100px 100px 50px 100px;
+        margin: 80px 100px 50px 100px;
         position: inherit;
         max-width: 300px;
         background-color: yellow;
@@ -23,22 +25,24 @@
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
     img {
-        border-radius: 10px;
+        border-radius: 100px;
+        box-shadow: 0px 0px 20px 18px rgba(0, 0, 0, 0.438);
     }
 
-    .profilepic {
-        display: inline-block;
-    }
+   
 
     #name,
     h3 {
-        width: 800px;
+        
+        width: 70vw;
         margin: auto;
         font-weight: bolder;
-        font-size: 50px;
+        font-size: 4vw;
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
        
     }
@@ -51,8 +55,9 @@
 
 
     <h1 id="name">Rodolfo Govedarski-Roldão</h1>
-    <h3 style="font-size: 25px;">Curriculum Vitae</h3>
+    <h3 style="font-size: 2vw;">Curriculum Vitae</h3>
     <nav>
+        <a href="01personalinfo.html">PERSONAL INFO</a>
         <a href="02Education.html">EDUCATION</a>
         <a href="03workexperience.html">WORK EXPERIENCE</a>
         <a href="05computerskillsandcompetences.html">SKILLS</a>
