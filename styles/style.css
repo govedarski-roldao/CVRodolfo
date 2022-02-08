@@ -22,81 +22,26 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-secundaria: 'Public Sans', sans-serif;
 }
+
 body {
+
     color: white;
     text-align: center;
     background-color: white;
-    background-image: url(../image/CG-1609.jpg);
+    background-image: url(../image/neo-coworking-discovery.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-#name,
-h3 {
-    
-    width: 70vw;
-    margin: auto;
-    font-weight: bolder;
-    font-size: 4vw;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
-   
+
+article {
+    margin-top: 20px;
 }
-.pagetitle{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
-    margin: 20px;
-    padding: 5px;
-    font-size: 3.8vw;
-    width: 80vw;
-    margin: 50px auto 50px auto;
-}
-h2{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
-    padding: 10px;
-    font-size: 2.1vw;
-}
-table{
-    border-collapse: collapse;
-    color: white;
-    padding-bottom: 20px;
-    margin: auto;
-    
-   
-   
-}
-
-div{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.040));
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 40px;
-    font-size: 1.2vw;
-    margin: auto;
-}
-
-td{
-    padding: 2px ;
-
-}
-.menu{
-
-
-    text-align: right;
-    font-weight: bold;
-}
-.info{
-    text-align: left;
-    padding-left: 19px;
-    font-weight: bold;
-
-}
-
-
-
 
 .profilepic {
-    margin: 80px 100px 50px 100px;
+    margin: 40px 100px 40px 100px;
     position: inherit;
     max-width: 300px;
     background-color: white;
@@ -108,55 +53,132 @@ td{
     box-shadow: 0px 0px 20px 18px rgba(39, 38, 38, 0.438);
 }
 
+#name,
+h3 {
 
-nav{
-    margin-top: 20px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
-    font-size: 1.2vw;
-    position:absolute;
-    bottom:0;
-    width:100%;
-    margin-bottom: 10px;  /* Height of the footer */
+    text-align: center;
+    width: 40vw;
+    margin: auto;
+    font-weight: bolder;
+    min-width: 500px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.815), rgba(255, 255, 255, 0.013));
+}
+
+#name{
+    font-size: 2.3em;
+}
+h3{
+    font-size: 1.5em;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    padding: 10px;
+    font-size: 2em;
+    font-family: var(--fonte-secundaria);
     
 
+}
+
+.pagetitle {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    margin: 20px;
+    padding: 5px;
+    font-size: 3.5em;
+    width: 80vw;
+    margin: 50px auto 50px auto;
+    font-family: var(--fonte-secundaria);
+}
+
+table {
+    border-collapse: collapse;
+    color: white;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 24px;
+    padding-top: 10px;
     
 }
 
-nav a {
-    
+div {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.040));
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    font-size: 1.2vw;
+    margin: auto;
+}
+
+td {
+    padding: 2px;
+}
+
+.menu {
+    text-align: right;
+    font-weight: bold;
+}
+
+.info {
+    text-align: left;
+    padding-left: 19px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
+    position: absolute;
+   
+    width: 100%;
+    margin-bottom: 10px;
+    /* Height of the footer */
+    min-width: 400px;
+}
+
+.headtag {
+    padding: 10px;
+    font-size: 35px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
+    width: 300px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a,
+.headtag {
     color: white;
     padding: 5px;
     text-decoration: none;
     font-weight: bolder;
     transition-duration: 0.5s;
-    
-
 }
 
-nav a:hover {
+nav a {
+    width: 1.2vw;
+    min-width: 200px;
+}
+
+nav a:hover,
+.headtag:hover {
     background-color: white;
     border-radius: 50px;
     box-shadow: 2px 5px 10px rgba(43, 149, 158, 0.534);
     color: var(--cor5);
     transition-duration: .7s;
 }
-p, ul{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050),rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.040));
-    padding: 10px 200px 10px 200px;
+
+p,
+ul {
+    background-image: linear-gradient(to right, rgba(192, 185, 185, 0.1), rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800), rgba(192, 185, 185, 0.1));
+    padding: 10px 10px 10px 10px;
     text-align: justify;
-    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
     margin: auto;
     font-size: 1.4em;
     list-style-type: none;
 }
-li{
+
+li {
     text-align: left;
-}
-
-footer {
-    background-color: #252617;
-    color: white;
-    padding: 6px;
-    text-align: center;
-
 }
