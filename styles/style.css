@@ -22,6 +22,12 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-secundaria: 'Public Sans', sans-serif;
 }
+a.externo::after {
+    content: "\1F4C3";
+    text-decoration: none;
+    color: white;
+    
+}
 
 body {
 
@@ -128,7 +134,6 @@ nav {
     margin-top: 20px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.013));
     position: absolute;
-   
     width: 100%;
     margin-bottom: 10px;
     /* Height of the footer */
