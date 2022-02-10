@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Software and Web Development ▷ Online Courses — SoftUni.org</title>
+<meta name="description" content="Learn Software Engineering and Web Development Online ⇒ SoftUni ⇐ JavaScript ✓Python ✓Java ✓C# ➤ Learn the Skills you Need to Start the Career you Dream of ➤ Apply now or Contact us">
+<meta name="category" content="Home page">
+<meta itemprop="name" content="Software and Web Development ▷ Online Courses — SoftUni.org">
+<meta itemprop="description" content="Learn Software Engineering and Web Development Online ⇒ SoftUni ⇐ JavaScript ✓Python ✓Java ✓C# ➤ Learn the Skills you Need to Start the Career you Dream of ➤ Apply now or Contact us">
+<meta itemprop="image" content="https://learn.softuni.org/platform/assets/images/softuni-og.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Software and Web Development ▷ Online Courses — SoftUni.org">
+<meta property="og:description" content="Learn Software Engineering and Web Development Online ⇒ SoftUni ⇐ JavaScript ✓Python ✓Java ✓C# ➤ Learn the Skills you Need to Start the Career you Dream of ➤ Apply now or Contact us">
+<meta property="og:image" content="https://learn.softuni.org/platform/assets/images/softuni-og.jpg">
+<meta name="twitter:card" content="https://learn.softuni.org/platform/assets/images/softuni-og.jpg">
+<meta name="twitter:title" content="Software and Web Development ▷ Online Courses — SoftUni.org">
+<meta name="twitter:description" content="Learn Software Engineering and Web Development Online ⇒ SoftUni ⇐ JavaScript ✓Python ✓Java ✓C# ➤ Learn the Skills you Need to Start the Career you Dream of ➤ Apply now or Contact us">
+<meta name="twitter:image" content="https://learn.softuni.org/platform/assets/images/softuni-og.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/x-icon" href="https://learn.softuni.org/platform/assets/icons/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://learn.softuni.org/platform/assets/icons/favicon.ico">
+<link href="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/common.css" rel="stylesheet">
+<link href="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/layout.css" rel="stylesheet">
+<style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-display: swap;
+            src: url('/platform/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+                url('/platform/assets/fonts/Montserrat-Medium.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            src: url('/platform/assets/fonts/Lato-Regular.woff2') format('woff2'),
+                url('/platform/assets/fonts/Lato-Regular.woff') format('woff');
+            font-display: swap;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            text-rendering: optimizeLegibility;
+        }
+
+        .column.right {
+            float: right;
+        }
+
+        .column.left {
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .v-spacing {
+            margin: 0 0 16px 0;
+        }
+
+        .certificate-front-and-back {
+            margin: 0 auto;
+            max-width: 595px;
+        }
+
+        /* ============================== CERTIFICATE FRONT ============================== */
+
+        .certificate-front {
+            background: url('/platform/assets/images/softuni-certificate-logo.png') no-repeat #44A9F8 right 70px;
+            padding: 45px;
+        }
+
+        .certificate-front-frame {
+            box-shadow: 0px 0px 10px rgba(41, 57, 75, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .certificate-front-content {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 8px;
+            color: #fff;
+            padding: 104px 25px 10px;
+        }
+
+        .certificate-front-title {
+            font: 500 55px/53px 'Montserrat';
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .certificate-front-subtitle {
+            font: 500 20px/19px 'Montserrat';
+            margin: 0 0 20px 0;
+        }
+
+        .certificate-front-separator {
+            margin-bottom: 81px;
+        }
+
+        .certificate-front-separator-line {
+            display: inline-block;
+            height: 1px;
+            width: 80px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 5px; /* to align vertically with ribbon */
+        }
+
+        .certificate-front-separator-ribbon {
+            margin: 0 10px;
+            height: 15px;
+        }
+
+        .certificate-front-issued-statement,
+        .certificate-front-successfully-completed-message,
+        .certificate-front-score-with,
+        .certificate-back-table-heading,
+        .certificate-back-table-cell {
+            font: normal normal 14px/23px 'Lato';
+        }
+
+        .certificate-front-person-name {
+            font: normal bold 25px/27px 'Montserrat';
+        }
+
+        .certificate-front-training-name {
+            font: normal bold 19px/30px 'Montserrat';
+        }
+
+        .certificate-front-score-wrapper {
+            margin: 0 0 22px 30px;
+        }
+
+        .certificate-front-score {
+            font: normal 500 26px/27px 'Montserrat';
+            margin-left: 10px;
+        }
+
+        .certificate-front-issue-date {
+            position: absolute;
+            bottom: -5px; /* aligns bottom horizonatally with certificate-front-signature */
+        }
+
+        .certificate-front-issue-date-and-signature {
+            position: relative;
+            width: 100%;
+            padding: 0 15px;
+            margin-bottom: 47px;
+        }
+
+        .certificate-front-issue-date-label {
+            font: normal 300 9px/9px 'Lato';
+            text-transform: capitalize;
+        }
+
+        .certificate-front-issue-date-value,
+        .certificate-front-signature-name  {
+            font: normal normal 12px/23px 'Lato';
+        }
+
+        .certificate-front-signature-image {
+            margin-bottom: 5px;
+        }
+
+        .certificate-front-signature-position {
+            font: normal 300 9px/12px 'Lato';
+        }
+
+        /* ============================== CERTIFICATE BACK ============================== */
+
+        .certificate-back {
+            background: url('/platform/assets/images/softuni-certificate-logo-blue.png') no-repeat #fff right 70px;
+            padding: 80px 45px 35px;
+            min-height: 842px;
+        }
+
+        .certificate-back-content {
+            width: 505px;
+            min-height: 727px; /* 842 - (80 + 35) or total height minus top and bottom padding */
+            position: relative;
+        }
+
+        .certificate-back-table-wrapper {
+            padding: 0 27.5px;
+        }
+
+        .certificate-back-title {
+            color: #44A9F8;
+            font: normal 500 20px/19px 'Montserrat';
+            margin: 0 0 50px 0;
+        }
+
+        .certificate-back-table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        .certificate-back-table-header {
+            border-bottom: 1px solid #44A9F8;
+        }
+
+        .certificate-back-table-heading {
+            color: #44A9F8;
+            text-transform: capitalize;
+            padding: 0 13px 0 0;
+        }
+
+        .certificate-back-table-cell {
+            color: #3E4C5D;
+            padding: 0;
+            line-height: 24px;
+        }
+
+        .certificate-back-table-cell-training-name {
+            padding-right: 10px;
+        }
+
+        .certificate-back-table-row {
+            vertical-align: top;
+        }
+
+        .certificate-back-table-first-row .certificate-back-table-cell {
+            padding-top: 12px;
+        }
+
+        .certificate-back-footer {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .certificate-back-footer-description {
+            text-align: left;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .certificate-back-footer-issue-date,
+        .certificate-back-footer-validity-info-label,
+        .certificate-back-footer-validity-info-link {
+            font: normal normal 9px/8px 'Lato';
+            color: #3E4C5D;
+        }
+
+        .certificate-back-footer-issue-date {
+            margin-bottom: 11px;
+        }
+
+        .certificate-back-footer-validity-info-label {
+            margin-bottom: 6px;
+        }
+
+        .certificate-back-footer-validity-info-link {
+            text-decoration: none;
+        }
+
+        .certificate-back-footer-validity-info {
+            position: relative;
+        }
+
+        .certificate-back-footer-qr-code {
+            float: left;
+        }
+
+        @media not print {
+            @media screen and (max-width: 570px) {
+                .certificate-front-title {
+                    font-size: 40px;
+                    line-height: 42px;
+                }
+
+                .certificate-front {
+                    padding: 15px;
+                }
+
+                .certificate-front-frame {
+                    padding: 10px;
+                }
+
+                .certificate-back-content {
+                    width: 100%;
+                }
+
+                .certificate-back {
+                    padding: 80px 20px 35px;
+                }
+            }
+
+            @media screen and (max-width: 380px) {
+                .certificate-front-title {
+                    font-size: 32px;
+                    line-height: 35px;
+                }
+            }
+        }
+    </style>
+<script type="text/javascript" async="" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/conversion_async.js"></script><script type="text/javascript" async="" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/hotjar-1259938.js"></script><script type="text/javascript" async="" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/analytics.js"></script><script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/308157400056945.js" async=""></script><script async="" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/fbevents.js"></script><script defer="defer" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/gtm.js"></script><script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MQS62L6');
+</script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/a"></script><script async="" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/modules.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+<body>
+<div id="root">
+<section class="certificate-front-and-back">
+<article class="certificate-front">
+<div class="certificate-front-frame">
+<div class="certificate-front-content">
+<section class="certificate-front-header column center">
+<h1 class="certificate-front-title v-spacing">
+certificate
+</h1>
+<h2 class="certificate-front-subtitle">
+of online assessment
+</h2>
+<div class="certificate-front-separator row center">
+<span class="certificate-front-separator-line"></span>
+<span class="certificate-front-separator-ribbon">
+<svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.9183 10.624C2.65718 10.3694 2.7933 10.4411 2.1635 10.2768C1.87774 10.2021 1.62655 10.0585 1.39938 9.88656L0.0361167 13.1455C-0.095793 13.461 0.150599 13.8038 0.499754 13.7909L2.08297 13.732L3.1719 14.8535C3.41228 15.1007 3.83415 15.0237 3.96606 14.7081L5.53005 10.9694C5.20433 11.1463 4.84286 11.25 4.46906 11.25C3.88313 11.25 3.33266 11.0277 2.9183 10.624ZM11.5023 13.1455L10.1391 9.88656C9.91192 10.0588 9.66072 10.2021 9.37496 10.2768C8.74186 10.442 8.88068 10.37 8.62016 10.624C8.2058 11.0277 7.65503 11.25 7.0691 11.25C6.6953 11.25 6.33383 11.146 6.00811 10.9694L7.5721 14.7081C7.70401 15.0237 8.12618 15.1007 8.36626 14.8535L9.45549 13.732L11.0387 13.7909C11.3879 13.8038 11.6343 13.4607 11.5023 13.1455ZM7.90262 9.96098C8.36175 9.50542 8.41434 9.54467 9.06818 9.37095C9.48554 9.25991 9.81186 8.93619 9.92364 8.52194C10.1484 7.68993 10.0901 7.79041 10.7034 7.18164C11.009 6.87842 11.1283 6.43634 11.0165 6.02209C10.792 5.19066 10.7917 5.30667 11.0165 4.47437C11.1283 4.06012 11.009 3.61804 10.7034 3.31482C10.0901 2.70604 10.1484 2.80624 9.92364 1.97451C9.81186 1.56026 9.48554 1.23654 9.06818 1.12551C8.23044 0.902562 8.3314 0.960862 7.71753 0.351792C7.41194 0.0485751 6.96633 -0.0700749 6.54897 0.0409581C5.71154 0.26361 5.82842 0.263903 4.98949 0.0409581C4.57213 -0.0700749 4.12652 0.0482822 3.82093 0.351792C3.20766 0.960569 3.30862 0.902562 2.47059 1.12551C2.05322 1.23654 1.7269 1.56026 1.61513 1.97451C1.39067 2.80624 1.44866 2.70604 0.835387 3.31482C0.529801 3.61804 0.410211 4.06012 0.52229 4.47437C0.746746 5.30521 0.747047 5.1892 0.52229 6.0218C0.410512 6.43605 0.529801 6.87813 0.835387 7.18164C1.44866 7.79041 1.39037 7.68993 1.61513 8.52194C1.7269 8.93619 2.05322 9.25991 2.47059 9.37095C3.14306 9.54965 3.19324 9.52153 3.63584 9.96098C4.03337 10.3556 4.65266 10.4262 5.13042 10.1315C5.32146 10.0132 5.54309 9.95043 5.76938 9.95043C5.99568 9.95043 6.2173 10.0132 6.40835 10.1315C6.88581 10.4262 7.50509 10.3556 7.90262 9.96098ZM2.93452 5.15521C2.93452 3.60163 4.20374 2.34218 5.76923 2.34218C7.33472 2.34218 8.60394 3.60163 8.60394 5.15521C8.60394 6.70879 7.33472 7.96824 5.76923 7.96824C4.20374 7.96824 2.93452 6.70879 2.93452 5.15521Z" fill="white"></path>
+</svg>
+</span>
+<span class="certificate-front-separator-line"></span>
+</div>
+</section>
+<main class="certificate-front-main column center">
+<h3 class="certificate-front-issued-statement v-spacing">
+This certificate is issued by SoftUni to acknowledge that
+</h3>
+<h3 class="certificate-front-person-name v-spacing">Rodolfo Govedarski-Roldão</h3>
+<h4 class="certificate-front-successfully-completed-message v-spacing">
+has successfully completed a course
+</h4>
+<h4 class="certificate-front-training-name v-spacing">Programming Basics with JavaScript</h4>
+<h5 class="certificate-front-score-wrapper center">
+<span class="certificate-front-score-with">
+with
+</span>
+<span class="certificate-front-score">98%</span>
+</h5>
+</main>
+<footer class="certificate-front-footer">
+<section class="certificate-front-issue-date-and-signature row">
+<div class="certificate-front-issue-date left column">
+<div class="certificate-front-issue-date-label center">
+Issue date
+</div>
+<div class="certificate-front-issue-date-value">20 Jun 2021</div>
+</div>
+<div class="certificate-front-signature column right center">
+<div class="certificate-front-signature-image">
+<svg width="40" height="38" viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4743 24.5508C10.7436 25.5001 10.4459 26.3176 10.473 27.3461C10.5541 29.4557 10.5812 31.5654 10.5812 33.675C10.5812 34.1233 10.6353 34.8089 9.98581 34.8089C9.22803 34.8353 9.4716 34.1233 9.4716 33.7014C9.41748 32.5147 9.63399 31.3016 9.11978 30.0622C8.76795 31.0379 8.41612 31.9873 8.0643 32.963C7.92898 33.3058 7.82072 33.675 7.36064 33.6223C6.84644 33.5695 6.73818 33.1476 6.76524 32.7257C6.98175 29.5348 7.25239 26.3176 8.14549 23.2323C8.28081 22.784 8.55144 22.2829 9.11978 22.2565C9.74224 22.2565 9.85049 22.784 9.98581 23.2586C10.0399 23.4696 10.1211 23.6806 10.2564 24.0761C10.7707 23.2586 11.1766 22.573 11.6096 21.9137C11.7991 21.6236 11.9073 21.2017 12.3674 21.2808C12.8546 21.3863 12.9087 21.8082 12.9357 22.2038C12.9628 22.6257 12.9899 23.0477 13.0169 23.8915C13.5311 22.9158 13.91 22.2829 14.2077 21.65C14.4513 21.1753 14.6408 20.5688 15.2903 20.727C15.8586 20.8589 15.588 21.4654 15.615 21.861C15.6421 22.7312 15.615 23.6014 15.615 24.6035C16.6164 24.0234 16.86 22.9949 17.2659 22.1247C18.8627 18.7493 19.5663 15.1365 19.9182 11.4446C20.1888 8.86029 20.5406 6.30235 20.4594 3.69166C20.3782 0.843638 19.5122 0.395338 17.0494 1.89846C13.7206 3.92899 11.0954 6.67153 8.79501 9.73052C7.19826 11.8402 5.73683 14.0289 4.35658 16.2968C3.3011 18.0373 4.08595 19.6986 3.84238 21.65C4.54603 21.0435 4.57309 20.4106 4.73547 19.8832C5.30381 17.9845 5.87215 16.0858 6.44048 14.1871C6.5758 13.7388 6.79231 13.4488 7.27945 13.5543C7.84779 13.6861 7.73953 14.1344 7.63128 14.53C5.84508 21.5182 6.22397 28.6646 5.95334 35.7583C5.92627 36.6285 6.33223 36.6285 6.98175 36.7076C9.87756 37.1295 12.3403 35.811 14.8573 34.8353C19.837 32.963 24.4378 30.3259 29.228 28.0317C32.3674 26.5286 35.5338 25.0255 38.6732 23.5487C39.1062 23.3377 39.7016 23.0213 39.9452 23.6542C40.1617 24.208 39.5122 24.3398 39.1333 24.498C32.4757 27.5834 25.9804 30.9061 19.3769 34.0969C16.454 35.4946 13.4229 36.7604 10.2835 37.7097C7.41477 38.5799 2.46213 37.1559 1.08189 35.1254C0.540617 34.3343 0.540617 33.4904 0.378235 32.6202C-0.4878 27.7153 0.0534722 22.9422 2.13737 18.3537C2.89515 16.666 2.24562 14.9783 2.27269 13.2905C2.29975 12.6049 2.13737 11.8929 2.11031 11.1809C2.11031 10.7853 1.83967 10.2052 2.57039 10.1788C3.16579 10.1524 3.08459 10.6799 3.11166 11.0491C3.27404 12.2621 3.40936 13.4751 3.5988 15.0046C4.92492 13.1323 6.03453 11.5501 7.19826 9.96786C9.7693 6.4342 12.6651 3.26973 16.454 0.896379C17.1035 0.50082 17.7801 0.158003 18.5379 0.0525204C20.0805 -0.184815 20.7571 0.289856 21.2172 1.74024C21.542 2.76869 21.7044 3.79714 21.6232 4.85196C21.2172 9.44044 20.8654 14.0289 19.7558 18.5383C19.2145 20.727 18.3214 22.784 17.1306 24.709C16.86 25.1573 16.6435 25.6847 15.9127 25.5529C15.3173 25.4474 15.3985 25.9484 15.3715 26.2385C15.2903 26.8978 15.2903 27.557 15.2361 28.2163C15.2091 28.6646 15.182 29.2184 14.5866 29.192C13.9371 29.192 14.0454 28.6119 14.0724 28.1899C14.1265 27.0296 14.2077 25.8693 14.2619 24.709C12.2321 25.3946 12.4757 27.056 12.3133 28.5591C12.2592 29.0074 12.4215 29.693 11.6638 29.5876C10.9601 29.5084 11.0413 28.9019 11.1495 28.3218C11.3931 27.1615 11.772 26.0012 11.4743 24.5508ZM4.95198 23.1795C4.24833 24.9991 3.78825 26.4231 3.84238 28.0053C3.86944 29.4821 3.70706 30.9852 3.62587 32.4883C3.57174 33.2531 3.40936 33.9914 2.62451 34.387C2.02911 34.6771 2.21856 34.9144 2.59745 35.2572C2.97634 35.6001 3.35523 35.8374 3.81531 36.0484C4.65428 36.4439 4.7896 36.1538 4.81666 35.3891C4.84373 33.4113 4.92492 31.4335 4.95198 29.4557C4.97905 27.4779 4.95198 25.5001 4.95198 23.1795ZM1.32546 30.115C2.89515 26.9505 3.19285 23.9443 2.51626 20.8062C1.46078 23.7597 0.56768 26.7132 1.32546 30.115ZM8.93033 24.5244C8.71382 25.6847 8.44319 26.5286 8.57851 27.6625C9.36335 26.6341 9.60692 25.7902 8.93033 24.5244Z" fill="white"></path>
+</svg>
+</div>
+<span class="certificate-front-signature-name center">
+Svetlin Nakov
+</span>
+ <div class="certificate-front-signature-position center">
+Manager Training and Inspiration
+</div>
+</div>
+<div class="clear"></div>
+</section>
+<div class="certificate-front-company-logo center">
+<svg width="129" height="40" viewBox="0 0 129 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.1282 0L0 14.0138L10.2106 19.2552V32.0184L26.1282 40L42.064 32.0184V19.2736L52.2746 14.0322L26.1282 0ZM37.1593 28.9655L26.1464 34.4828L15.1336 28.9655V21.8115L26.1464 27.4759L37.1593 21.8115V28.9655ZM26.1282 21.9034L10.8123 14.0322L26.1282 5.55402L41.4441 14.0322L26.1282 21.9034Z" fill="white"></path>
+<path d="M68.3563 16.4965C68.2651 16.6437 68.1557 16.7724 68.0281 16.8828C67.9005 16.9747 67.7364 17.0115 67.5905 17.0115C67.4082 17.0115 67.2259 16.9563 67.08 16.8644L66.4601 16.5149C66.2048 16.3862 65.9313 16.2575 65.6578 16.1655C65.3296 16.0552 64.9832 16 64.6367 16.0184C63.9803 16.0184 63.488 16.1655 63.1599 16.4414C62.8317 16.7356 62.6493 17.1586 62.6676 17.6C62.6676 17.8942 62.7587 18.1701 62.9593 18.3724C63.1781 18.5931 63.4334 18.777 63.7251 18.9057C64.0715 19.0713 64.4544 19.2 64.8191 19.3103C65.2202 19.4391 65.6396 19.5678 66.0772 19.7149C66.4965 19.8621 66.9159 20.046 67.3353 20.2483C67.7364 20.4506 68.101 20.708 68.4292 21.0391C68.7574 21.3701 69.0127 21.7563 69.195 22.1977C69.3956 22.7126 69.505 23.2828 69.4868 23.8345C69.4868 24.5149 69.3774 25.1954 69.1221 25.8391C68.8851 26.446 68.5204 26.9977 68.0646 27.4575C67.5723 27.9356 66.9888 28.3034 66.3507 28.5425C65.6031 28.8184 64.8191 28.9471 64.035 28.9287C63.5428 28.9287 63.0687 28.8736 62.5764 28.7816C62.0841 28.6896 61.61 28.5425 61.1542 28.3586C60.6984 28.1931 60.2608 27.9724 59.8596 27.7149C59.4767 27.4759 59.1121 27.2 58.8021 26.8873L59.8414 25.2138C59.9326 25.0851 60.042 24.9931 60.1696 24.9195C60.2972 24.846 60.4613 24.7908 60.6072 24.7908C60.826 24.7908 61.0448 24.8644 61.2454 24.9931C61.4642 25.1218 61.7012 25.269 61.9747 25.4345C62.2664 25.6184 62.5764 25.7655 62.9046 25.8759C63.3057 26.023 63.7251 26.0782 64.1444 26.0782C64.7826 26.0782 65.2931 25.931 65.6396 25.6552C66.0042 25.3793 66.1683 24.9195 66.1683 24.2942C66.1866 23.9816 66.0772 23.669 65.8766 23.4115C65.6578 23.1724 65.4025 22.9885 65.1108 22.8598C64.7644 22.6942 64.3997 22.5655 64.035 22.4736C63.6339 22.3632 63.2146 22.2345 62.7952 22.1057C62.3758 21.9586 61.9565 21.7931 61.5553 21.5908C61.1542 21.3885 60.7895 21.131 60.4796 20.8C60.1514 20.4506 59.8779 20.0276 59.7138 19.5678C59.495 18.9977 59.4038 18.3724 59.422 17.7655C59.422 17.177 59.5314 16.6069 59.7685 16.0736C60.0055 15.5218 60.3519 15.0253 60.7895 14.6023C61.2636 14.1609 61.8288 13.8115 62.4305 13.5724C63.1416 13.2965 63.9074 13.1678 64.655 13.1862C65.1108 13.1862 65.5666 13.223 66.0225 13.2965C66.4601 13.3701 66.8794 13.4805 67.2806 13.6276C67.6635 13.7747 68.0281 13.9402 68.3745 14.1425C68.7027 14.3264 69.0127 14.5655 69.3044 14.823L68.3563 16.4965Z" fill="white"></path>
+<path d="M76.1601 17.6368C76.9259 17.6184 77.6917 17.7655 78.4028 18.023C79.0592 18.2621 79.6427 18.6483 80.1532 19.1448C80.6455 19.6414 81.0284 20.2483 81.2837 20.9104C81.5571 21.6644 81.703 22.4552 81.6848 23.246C81.703 24.0552 81.5571 24.846 81.2837 25.6C81.0284 26.2621 80.6455 26.869 80.1532 27.3839C79.6609 27.8805 79.0592 28.2667 78.4028 28.5058C77.6917 28.7816 76.9259 28.9104 76.1601 28.892C75.3943 28.9104 74.6103 28.7632 73.8992 28.5058C73.2428 28.2483 72.6411 27.8805 72.1488 27.3839C71.6383 26.8874 71.2554 26.2621 71.0001 25.6C70.7266 24.846 70.5808 24.0368 70.599 23.246C70.5808 22.4552 70.7266 21.6644 71.0001 20.9104C71.2554 20.2483 71.6383 19.6414 72.1488 19.1448C72.6593 18.6483 73.2428 18.2621 73.8992 18.023C74.6103 17.7471 75.3761 17.6184 76.1601 17.6368ZM76.1601 26.4828C76.9077 26.4828 77.4547 26.2253 77.8011 25.692C78.1475 25.1586 78.3299 24.3494 78.3299 23.2644C78.3299 22.1793 78.1475 21.3701 77.8011 20.8552C77.4547 20.3219 76.9077 20.0644 76.1601 20.0644C75.3943 20.0644 74.8291 20.3219 74.4827 20.8552C74.118 21.3885 73.9539 22.1793 73.9539 23.2644C73.9539 24.3494 74.1362 25.1586 74.4827 25.692C74.8291 26.2253 75.3943 26.4828 76.1601 26.4828Z" fill="white"></path>
+<path d="M94.1563 20.0644V25.508C94.1563 25.7287 94.211 25.9494 94.3387 26.1333C94.4663 26.2989 94.6669 26.3908 94.8674 26.3908C94.9768 26.3908 95.068 26.3724 95.1592 26.354C95.2321 26.3356 95.305 26.2989 95.378 26.2621C95.4327 26.2253 95.4874 26.2069 95.5421 26.1701C95.5968 26.1517 95.6697 26.1333 95.7244 26.1333C95.8156 26.1333 95.8885 26.1517 95.9614 26.2069C96.0344 26.2621 96.0891 26.3356 96.1438 26.4276L97.1284 27.9724C96.709 28.2851 96.2167 28.5241 95.7062 28.6897C95.1774 28.8552 94.6304 28.9287 94.0834 28.9287C93.6093 28.9287 93.1535 28.8552 92.7159 28.7081C91.9501 28.4322 91.3666 27.8253 91.1114 27.0529C90.9655 26.6299 90.8926 26.1885 90.9108 25.7287V20.0828H87.0454V28.7632H83.7998V20.046L83.0887 19.8989C82.8699 19.8621 82.6694 19.7701 82.5053 19.6414C82.3594 19.5126 82.2682 19.3103 82.2865 19.1081V17.8207H83.8181V17.1954C83.8181 16.6069 83.9092 16.0368 84.1098 15.5035C84.2921 15.0069 84.5839 14.5655 84.9668 14.1977C85.3679 13.8299 85.8237 13.5356 86.3343 13.3701C86.9177 13.1678 87.5377 13.0575 88.1576 13.0759C88.3946 13.0759 88.6499 13.0943 88.8869 13.131C89.124 13.1678 89.361 13.223 89.598 13.2782L89.5433 14.8782C89.5433 15.0621 89.4339 15.246 89.2698 15.3379C89.1969 15.3931 89.1057 15.4115 89.0146 15.4483C88.9234 15.4667 88.8322 15.4851 88.7411 15.4851C88.4858 15.4851 88.2305 15.5035 87.9753 15.577C87.7747 15.6322 87.5741 15.7241 87.41 15.8713C87.2459 16.0368 87.1365 16.2207 87.0636 16.4414C86.9724 16.7356 86.936 17.0299 86.9542 17.3241V17.8391H91.1114L91.7678 15.154C91.8589 14.823 92.096 14.6391 92.4789 14.6391H94.1746V17.8391H96.8731V20.0828L94.1563 20.0644Z" fill="white"></path>
+<path d="M104.841 25.931C105.279 25.931 105.716 25.8575 106.117 25.692C106.482 25.5448 106.81 25.3057 107.065 25.0115C107.339 24.6989 107.54 24.331 107.649 23.9264C107.795 23.4483 107.868 22.9701 107.849 22.4736V13.3701H111.405V22.4736C111.423 23.3563 111.259 24.2391 110.949 25.0667C110.657 25.8391 110.22 26.5195 109.636 27.108C109.053 27.6966 108.342 28.1379 107.576 28.4322C105.807 29.0575 103.875 29.0575 102.106 28.4322C101.34 28.1379 100.629 27.6782 100.046 27.108C99.4804 26.5379 99.0246 25.8391 98.7511 25.0667C98.4411 24.2391 98.2953 23.3563 98.2953 22.4736V13.3701H101.833V22.4736C101.833 22.9701 101.887 23.4483 102.033 23.9264C102.161 24.331 102.361 24.6989 102.617 25.0115C102.872 25.3057 103.2 25.5448 103.565 25.692C103.984 25.8575 104.403 25.931 104.841 25.931Z" fill="white"></path>
+<path d="M116.419 18.9793C116.62 18.777 116.838 18.5931 117.075 18.4276C117.294 18.2621 117.531 18.115 117.787 18.0046C118.06 17.8759 118.334 17.8023 118.607 17.7287C118.917 17.6552 119.245 17.6184 119.573 17.6184C120.12 17.6 120.649 17.7104 121.141 17.931C121.579 18.1333 121.98 18.4276 122.29 18.7954C122.618 19.1816 122.855 19.623 123.001 20.1196C123.165 20.6529 123.238 21.223 123.238 21.7747V28.7264H119.993V21.7747C120.011 21.3333 119.883 20.892 119.628 20.5241C119.355 20.2115 118.954 20.046 118.552 20.0828C118.206 20.0828 117.86 20.1563 117.55 20.3035C117.221 20.469 116.911 20.6713 116.638 20.9287V28.7448H113.411V17.8023H115.416C115.781 17.7655 116.109 18.0046 116.219 18.354L116.419 18.9793Z" fill="white"></path>
+<path d="M129 14.8046C129 15.0621 128.945 15.3012 128.836 15.5402C128.726 15.7609 128.581 15.9632 128.417 16.1471C128.234 16.3127 128.015 16.4598 127.778 16.5517C127.541 16.6621 127.268 16.6989 127.013 16.6989C126.757 16.6989 126.502 16.6437 126.265 16.5517C126.046 16.4598 125.827 16.3127 125.645 16.1471C125.463 15.9816 125.317 15.7793 125.226 15.5402C125.116 15.3012 125.08 15.0621 125.08 14.8046C125.08 14.5471 125.135 14.2897 125.226 14.0506C125.317 13.8299 125.463 13.6092 125.645 13.4437C125.827 13.2598 126.028 13.131 126.265 13.0391C126.502 12.9471 126.757 12.892 127.013 12.892C127.268 12.892 127.541 12.9471 127.778 13.0391C128.015 13.131 128.234 13.2782 128.417 13.4437C128.599 13.6092 128.745 13.8299 128.836 14.0506C128.945 14.2897 129 14.5471 129 14.8046ZM128.672 17.8023V28.7448H125.426V17.8023H128.672Z" fill="white"></path>
+</svg>
+</div>
+</footer>
+</div>
+</div>
+</article>
+<article class="certificate-back column">
+<section class="certificate-back-content column">
+<div class="certificate-back-header">
+<h1 class="certificate-back-title center">
+Course Curriculum:
+</h1>
+</div>
+<main class="certificate-back-main">
+<div class="certificate-back-table-wrapper">
+<table class="certificate-back-table">
+<thead class="certificate-back-table-header">
+<tr class="certificate-back-table-row">
+ <th class="certificate-back-table-heading certificate-back-table-heading-topic">
+Topic
+</th>
+<th class="certificate-back-table-heading certificate-back-table-heading-hours">
+Hours
+</th>
+</tr>
+</thead>
+<tbody class="certificate-back-table-body"><tr class="certificate-back-table-row certificate-back-table-first-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Introduction To Programming</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">2</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Expressions and Statements</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">3</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Conditional Statements</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Conditional Statements Advanced</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">For Loop</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">While Loop</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Nested Loops</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr>
+<tr class="certificate-back-table-row"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">Exam Preparation</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">4</td></tr></tbody>
+</table>
+</div>
+</main>
+<footer class="certificate-back-footer column">
+<div class="certificate-back-footer-info-wrapper row">
+<span class="certificate-back-footer-qr-code"><img src="data:image/gif;base64,R0lGODdhSgBKAIAAAAAAAP///ywAAAAASgBKAAAC/4yPqcvtD6OctNqLs968+w+G4kiWZgKk6roa7cECSjrHNmXfweuydZ3jRWgNYu+Hku1Ux6JSYlxEo00E8UVN4pSx6vKqQ4KxzyHXt7Qyv2jxmbztwWFrb3PeTU/G62ldryZ3JggWx1boBPQ2eMgItYjIkEWGmJflcEkX2CjJmGn38Amol+cGuvkY1OfJegcZtKVa2UrKKlsGMptZeoJpi0snlLsaydYprJm4R+xoLNWmpWzoe+s3yYwhSiirds1ngYy3Kujml/1HXqsL/J0MXoa8zUcJD60dna5IT9/9d98/rx61X6L+BWNmzsm6gsAebRJSDV2jHOce+ovIrto7b+kCD67r52pjxoTbXFmj5XDiK4jNfIVcJm/lxVPPXr6z+cygRQ+zBt4cJTJcw1EBWeZbxotmQlUWdXqU2S4qLGc0jyFEI64oNndmGJrc+pXihXjJAh7VShZCVqwj2WIc6lMdW31Xb5kQi4pTEqca8HJNSnWsxrIX+cntO/grwEWKM3h9avUoKKePS+ZkjI+r2lcvi3mJmHez5Z5AiSYu7VJvMa07FcKtqboZa8JxU1rK2NQeZsCpbyMJO9MZb2mwSXfK6xumMuOwP89Fyi12u3R8Qw2+PV34617cu3v/Dj68+PHky5s/j35BAQA7" width="74" height="74"></span>
+<div class="certificate-back-footer-description column">
+<span class="certificate-back-footer-issue-date">20 Jun 2021</span>
+<div class="certificate-back-footer-validity-info column">
+<span class="certificate-back-footer-validity-info-label">
+Check the validity of this document here:
+</span>
+<br>
+<a class="certificate-back-footer-validity-info-link" href="https://learn.softuni.org/certificates/details/9012/">https://learn.softuni.org/certificates/details/9012/</a>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</footer>
+</section>
+</article>
+</section>
+</div>
+<script>
+        window.accessToken = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImUyZGI0YjI2NWY5ZjdmZDdhYmQ2NDkwZGI5YzAzYjdlIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NDM2NjkwMjcsImV4cCI6MTY1MTQ0NTAyNywiaXNzIjoiaHR0cHM6Ly9hdXRoLnNvZnR1bmkub3JnIiwiYXVkIjpbImh0dHBzOi8vYXV0aC5zb2Z0dW5pLm9yZy9yZXNvdXJjZXMiLCJNaWNyb3NlcnZpY2VBUEkiXSwiY2xpZW50X2lkIjoiSW50ZXJhY3RpdmUuVUkiLCJzdWIiOiIyNDhmYTEzMS03YjliLTRkNjAtYmNjZS1jMTJiZWEzYTI4OTYiLCJhdXRoX3RpbWUiOjE2NDM2NjkwMjYsImlkcCI6ImxvY2FsIiwiZW1haWwiOlsicl9yb2xkYW9AaG90bWFpbC5jb20iLCJyX3JvbGRhb0Bob3RtYWlsLmNvbSJdLCJhY2NlcHRzQ3VzdG9tZXJTZXJ2aWNlQWdyZWVtZW50IjoiRmFsc2UiLCJhY2NlcHRzTWFya2V0aW5nQ29tbXVuaWNhdGlvbkFncmVlbWVudCI6IlRydWUiLCJhY2NlcHRzU3RhdGlzdGljc0FuZEFuYWx5c2lzQWdyZWVtZW50IjoiRmFsc2UiLCJhY2NlcHRzQ2FycmVyQWR2aXNpbmdBZ3JlZW1lbnQiOiJGYWxzZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJNaWNyb3NlcnZpY2VBUEkiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.vNDFXze38SOgkcfiOnsoOJuZFsC6L7s4qbT3ZnWxL89LUX6o0dp2qYqsg9xU9nrDJSaMKbWoCYfPSls5DPMo0CrBZN1ngeX-hsECrKxbwkl2Avl8CK-dpzb3pzmpFdQWUbN4N8UGp-QolpQcR3ycp4fSEmjUgjSgYCwiaBNN_6jBFKzs9ritK82E17QmDoKYxX5j2ItyEMXv08xMuVnk9TqC6wIdzvvJBC-sMOMMNBA-SYfy1DBaL_nlh93bnaC1P9svJLupnAIJMjAEg1xyd2MF_C-4IpNXqH3dOLcm7QaSVojoqJsAG-UoQg59k-35XI-XjxlSckA20qOlQ_DxOg';
+
+        window.URLS = {
+            USER_PROFILES: 'https://learn.softuni.org/api/user-profiles',
+            TRAININGS: 'https://learn.softuni.org/api/trainings',
+            AUTH: 'https://auth.softuni.org',
+            LEARNING_CONTENT: 'https://learn.softuni.org/api/learning-content',
+            PAYMENTS: 'https://learn.softuni.org/api/payments',
+            UI_CONTENT: 'https://learn.softuni.org/api/ui-content',
+            EMAILS: 'https://learn.softuni.org/api/emails',
+            NOTIFICATIONS: 'https://learn.softuni.org/api/notifications',
+            SUBMISSIONS: 'https://learn.softuni.org/api/submissions',
+            AGGREGATOR: 'https://learn.softuni.org/api/aggregator',
+            USER_PROGRESS: 'https://learn.softuni.org/api/user-progress',
+            HELP_CENTER_UI: 'https://helpcenter.softuni.org',
+        };
+
+        window.APP_CONSTANTS = {
+            PAY_PAL_CLIENT_ID: '',
+            SAFE_CHARGE_MERCHANT_SITE_ID: '177998',
+            SAFE_CHARGE_ENV: 'prod',
+            INTEREACTIVE_LEARNING_VIDEO_ID: 'nkP_hYxzp8w',
+            ALTERNATIVE_SITES: [{"text":"English (Global)","link":"https://learn.softuni.org/regions/change?region=BG","countryCode":"BG","isRecommendedUrl":false},{"text":"English (South Africa)","link":"https://learn.softuni.org/regions/change?region=ZA","countryCode":"ZA","isRecommendedUrl":false},{"text":"SoftUni Romania","link":"https://learn.softuni.org/regions/change?region=RO","countryCode":"RO","isRecommendedUrl":false}],
+            RECOMMENDED_URLS: [{"text":"English (Global)","link":"https://learn.softuni.org/regions/change?region=BG","countryCode":"BG","isRecommendedUrl":false},{"text":"English (South Africa)","link":"https://learn.softuni.org/regions/change?region=ZA","countryCode":"ZA","isRecommendedUrl":false},{"text":"SoftUni Romania","link":"https://learn.softuni.org/regions/change?region=RO","countryCode":"RO","isRecommendedUrl":false},{"link":"https://learn.softuni.org","countryCode":"PT","isRecommendedUrl":true}],
+            CONTENT_CODE: 'PT',
+            GEO_CODE: 'PT',
+            DEFAULT_COUNTRY_CODE: 'BG',
+            BLOG_URL: 'https://blog.softuni.org',
+            RUNNING_ON: 'INTERNAL',
+        };
+    </script>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQS62L6"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/manifest.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/react.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/libs.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/common.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/jquery-3.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/bluebird.js"></script>
+<script src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/qrcode.js"></script>
+<script>
+        (function (scope) {
+            var selectors = {
+                content: {
+                    // Certificate Front
+                    certificateFrontTitle: '.certificate-front-title',
+                    certificateFrontSubTitle: '.certificate-front-subtitle',
+                    certificateFrontIssuedStatement: '.certificate-front-issued-statement',
+                    certificateFrontSuccessfullyCompletedMessage: '.certificate-front-successfully-completed-message',
+                    certificateFrontScoreWith: '.certificate-front-score-with',
+                    certificateFrontIssueDateLabel: '.certificate-front-issue-date-label',
+                    certificateFrontSignatureName: '.certificate-front-signature-name',
+                    certificateFrontSignaturePosition: '.certificate-front-signature-position',
+                    // Certificate Back
+                    certificateBackTitle: '.certificate-back-title',
+                    certificateBackTableHeadingTopic: '.certificate-back-table-heading-topic',
+                    certificateBackTableHeadingHours: '.certificate-back-table-heading-hours',
+                    certificateBackFooterValidityInfoLabel: '.certificate-back-footer-validity-info-label'
+                },
+                data: {
+                    // Certificate Front
+                    certificateFrontPersonName: '.certificate-front-person-name',
+                    certificateFrontTrainingName: '.certificate-front-training-name',
+                    certificateFrontScore: '.certificate-front-score',
+                    certificateFrontIssueDateValue: '.certificate-front-issue-date-value',
+                    // Certificate Back
+                    certificateBackTableBody: '.certificate-back-table-body',
+                    certificateBackFooterQrCode: '.certificate-back-footer-qr-code',
+                    certificateBackFooterIssueDate: '.certificate-back-footer-issue-date',
+                    certificateBackFooterValidityInfoLink: '.certificate-back-footer-validity-info-link'
+                }
+            };
+
+            function request(method) {
+                var getAuthHeader = function getAuthHeader() {
+                    var token = window.accessToken;
+                    return token
+                        ? { Authorization: "Bearer ".concat(token) }
+                        : null;
+                };
+
+                var authHeader = getAuthHeader();
+                var headers = {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json'
+                };
+
+                if (authHeader) {
+                    headers.Authorization = authHeader.Authorization;
+                }
+
+                return function (url) {
+                    return new Promise(function (resolve, reject) {
+                        var xhr = new XMLHttpRequest();
+                        xhr.addEventListener("load", function () {
+                            if (this.status == '200') {
+                                return resolve(JSON.parse(this.responseText));
+                            } else {
+                                return reject(JSON.parse(this.responseText));
+                            }
+                        });
+                        xhr.open('GET', url);
+
+                        Object.keys(headers)
+                            .forEach(function (headerName) {
+                                return xhr.setRequestHeader(headerName, headers[headerName]);
+                            });
+                        xhr.send();
+                    });
+                };
+            }
+
+            function get(endpoint) {
+                return request('GET')(endpoint);
+            }
+
+            function fetchStrings() {
+                var UI_CONTENT = window.URLS.UI_CONTENT;
+                var stringsEndpoint = "".concat(UI_CONTENT, "/pages/GetPage/certificate");
+                return get(stringsEndpoint)
+                    .then(function (data) {
+                        var strings = data.pageContents;
+                        return strings;
+                    });
+            }
+
+            function fetchDetails(certificateId) {
+                var userProfilesUrl = window.URLS.USER_PROFILES;
+
+                var certificatesDetailsEndpoint = "".concat(userProfilesUrl, "/certificates/GetDetails/").concat(certificateId);
+                return get(certificatesDetailsEndpoint);
+            }
+
+            function toQrCode(url) {
+                var data = selectors.data;
+                var certificateBackFooterQrCode = data.certificateBackFooterQrCode;
+                var typeNumber = 0;
+                var errorCorrectionLevel = 'L';
+                var qr = qrcode(typeNumber, errorCorrectionLevel);
+                qr.addData(url);
+                qr.make();
+                document.querySelector(certificateBackFooterQrCode).innerHTML = qr.createImgTag();
+            }
+
+            function renderDetails(details) {
+                var fullName = details.fullName,
+                    trainingName = details.trainingName,
+                    score = details.score,
+                    issueDate = details.issueDate,
+                    topics = details.topics;
+                var data = selectors.data;
+                var validityUrl = window.location.toString();
+
+                toQrCode(validityUrl);
+                document.querySelector(data.certificateFrontPersonName).innerHTML = fullName;
+                document.querySelector(data.certificateFrontTrainingName).innerHTML = trainingName;
+                document.querySelector(data.certificateFrontScore).innerHTML = score;
+                document.querySelector(data.certificateFrontIssueDateValue).innerHTML = issueDate;
+                document.querySelector(data.certificateBackFooterIssueDate).innerHTML = issueDate;
+                document.querySelector(data.certificateBackFooterValidityInfoLink).innerHTML = validityUrl;
+                document.querySelector(data.certificateBackFooterValidityInfoLink).href = validityUrl;
+                document.querySelector(data.certificateBackTableBody).innerHTML = topics.map(function (lesson, index) {
+                    var name = lesson.name,
+                        hours = lesson.hours;
+                    var isFirst = index === 0;
+                    var rowClassName = isFirst ? 'certificate-back-table-row certificate-back-table-first-row' : 'certificate-back-table-row';
+                    return '<tr class="'
+                        .concat(rowClassName,'"><td class="certificate-back-table-cell certificate-back-table-cell-training-name">')
+                        .concat(name, '</td><td class="certificate-back-table-cell certificate-back-table-cell-training-hours">')
+                        .concat(hours, '</td></tr>');
+                })
+                    .join("\n");
+            }
+
+            function renderStrings(strings) {
+                var certificate = strings.certificate,
+                    ofOnlineAssessment = strings.ofOnlineAssessment,
+                    issuedStatement = strings.issuedStatement,
+                    successfullyCompletedMessage = strings.successfullyCompletedMessage,
+                    withForScore = strings.withForScore,
+                    issueDate = strings.issueDate,
+                    signatureName = strings.signatureName,
+                    signaturePosition = strings.signaturePosition,
+                    courseCurriculum = strings.courseCurriculum,
+                    topic = strings.topic,
+                    hours = strings.hours,
+                    checkValidityMessage = strings.checkValidityMessage;
+                var content = selectors.content;
+                $(content.certificateFrontTitle).innerHTML = certificate;
+                $(content.certificateFrontSubTitle).innerHTML = ofOnlineAssessment;
+                $(content.certificateFrontIssuedStatement).innerHTML = issuedStatement;
+                $(content.certificateFrontSuccessfullyCompletedMessage).innerHTML = successfullyCompletedMessage;
+                $(content.certificateFrontScoreWith).innerHTML = withForScore;
+                $(content.certificateFrontIssueDateLabel).innerHTML = issueDate;
+                $(content.certificateFrontSignatureName).innerHTML = signatureName;
+                $(content.certificateFrontSignaturePosition).innerHTML = signaturePosition;
+                $(content.certificateBackTitle).innerHTML = courseCurriculum;
+                $(content.certificateBackTableHeadingTopic).innerHTML = topic;
+                $(content.certificateBackTableHeadingHours).innerHTML = hours;
+                $(content.certificateBackFooterValidityInfoLabel).innerHTML = checkValidityMessage;
+            }
+
+            function getAndRenderStrings() {
+                return fetchStrings().then(function (strings) {
+                    return renderStrings(strings);
+                }).catch(function (error) {
+                    return console.error(error);
+                });
+            }
+
+            function getAndRenderDetails(certificateId) {
+                return fetchDetails(certificateId)
+                    .then(function (details) {
+                        return renderDetails(details);
+                    })
+                    .catch(function (err) {
+                        return console.error(err);
+                    });
+            }
+
+            function init(certificateId) {
+                getAndRenderStrings();
+                getAndRenderDetails(certificateId);
+            }
+            scope.certificateInit = init;
+        })(window);
+
+        window.certificateInit(9012);
+    </script>
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","308157400056945");</script>
+<script type="text/javascript" id="">fbq("track","PageView");</script><iframe style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;" name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="Software%20and%20Web%20Development%20%E2%96%B7%20Online%20Courses%20%E2%80%94%20SoftUni.org_ficheiros/box-acca23410e696f2ca3087d947271c3d0.htm"></iframe></body></html>
