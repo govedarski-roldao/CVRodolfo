@@ -22,11 +22,12 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-secundaria: 'Public Sans', sans-serif;
 }
+
 a.externo::after {
     content: "\1F4C3";
     text-decoration: none;
     color: white;
-    
+
 }
 
 body {
@@ -70,30 +71,35 @@ h3 {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.815), rgba(255, 255, 255, 0.013));
 }
 
-#name{
+#name {
     font-size: 2.3em;
 }
-h3{
+
+h3 {
     font-size: 1.5em;
 }
 
 h2 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650), rgba(255, 255, 255, 0.050));
     padding: 10px;
     font-size: 2em;
     font-family: var(--fonte-secundaria);
-    
-
+    max-width: 800px;
+    min-width: 400px;
+    border-radius: 30px;
+    margin: auto;
 }
 
 .pagetitle {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541), rgba(255, 255, 255, 0.050));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.050), rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600), rgba(255, 255, 255, 0.050));
     margin: 20px;
     padding: 5px;
     font-size: 3.5em;
-    width: 80vw;
+    max-width: 800px;
+    min-width: 400px;
     margin: 50px auto 50px auto;
     font-family: var(--fonte-secundaria);
+    border-radius: 30px;
 }
 
 table {
@@ -103,7 +109,7 @@ table {
     margin: auto;
     font-size: 24px;
     padding-top: 10px;
-    
+
 }
 
 div {
@@ -138,6 +144,8 @@ nav {
     margin-bottom: 10px;
     /* Height of the footer */
     min-width: 400px;
+    font-size: 1.25em;
+    padding: 5px;
 }
 
 .headtag {
@@ -174,14 +182,16 @@ nav a:hover,
 
 p,
 ul {
-    background-image: linear-gradient(to right, rgba(192, 185, 185, 0.1), rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800), rgba(192, 185, 185, 0.1));
-    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.600));
+    padding: 10px;
     text-align: justify;
     max-width: 800px;
     min-width: 400px;
+    border-radius: 30px;
     margin: auto;
     font-size: 1.4em;
     list-style-type: none;
+    line-height: 1.8em;
 }
 
 li {
