@@ -197,3 +197,11 @@ ul {
 li {
     text-align: left;
 }
+
+@media only screen and (max-width: 460px) {
+
+    p,
+    ul {
+        max-width: 200px;
+    }
+}
